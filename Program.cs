@@ -64,7 +64,10 @@ namespace ATV_QuantDiasMensaisComSwitchCase
                 default:
                     Console.WriteLine(" Ocorreu algum erro de digitação, por favor corrijio-o!");
                     break;
+                    
+                    //Muito Bom!
             }
+            
             
         }
     }
