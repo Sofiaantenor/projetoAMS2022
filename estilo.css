@@ -1,0 +1,380 @@
+#fundo{
+	background-image: url("imagens/ad_EX_editado.png");
+	background-position: center top;
+	/*background-repeat: no-repeat;*/
+}
+
+#parte_1{
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#cabecalho{
+	/*text-align:center;/*faz o alinhamento do conteúdo da div*/
+	/*border-width:2px;/*espessura da borda*/
+	/*border-style:solid;/*estilo da borda*/
+    /*border-color:#DDA0DD;/*cor da borda*/	
+}
+
+#menu{
+	background-color:#008080;/*cor de fundo do menu principal*/	
+	text-align:center:/*centraliza todo o conteúdo do menu*/
+	border-width:2px;
+	border-style:solid;/*estilo da borda*/
+    border-color:#008080;/*cor da borda*/	
+	border-radius:15px;
+}  
+
+#menu a{/*configura os hiperlinks que estão no menu*/
+	color:white;/*altera a cor*/
+	font-size:21px;/*altera o tamanho da font*/
+	text-decoration:none;/*remove o sublinhado dos hiperlinks*/
+	margin-right:28px;/*insere uma margem do lado direito de cada hiperlink, para fazer o distanciamento de um hiperlink*/
+	padding-top:10px;/*preencimento do hiperlink*/
+	padding-right:20px;
+	padding-bottom:13px;
+	padding-left:20px;
+} 
+
+#menu li{
+	list-style-type:none;/*remove os marcadores dos itens do menu*/
+	display:inline;/*mostra os itens do menu em linha, horizontal*/
+} 
+
+#menu a:hover{/*quando passar o mouse por cima do hiperlink*/
+    border:1px solid white;/*insere borda no hiperlink*/
+	border-radius:8px;/*arredondar os cantos da borda*/
+}
+			
+#carrousel{
+	/*border-width:2px;/*espessura da borda*/
+	/*border-style:solid;/*estilo da borda*/
+    /*border-color:#DDA0DD;/*cor da borda*/	
+}
+
+#conteudo{
+	/*border-width:2px;/*espessura da borda*/
+	/*border-style:solid;/*estilo da borda*/
+    /*border-color:#DDA0DD;/*cor da borda*/
+    display:grid;/*informa que a div será uma grade*/
+    grid-template-columns:33% auto 33%;/*determina a quantidade de colunas e a largura de cada uma*/
+    grid-gap:1%;/*espaço entre colunas e linhas da grase*/ 	
+}
+
+.img_conteudo {
+	width:100%;/*largura da imagem*/
+	height:300px;/*altura da imagem*/
+	border-radius:20px;/*arredondamento das bordas das imagens*/
+}
+
+.texto_conteudo{
+	font-family:arial;/*alterar o tipo da letra*/
+	text-align:center;/*centralização do texto*/
+	/*padding-left:20px;/*preenchimento do lado esquerdo*/
+	padding-right:20px;/*preenchimento do lado direito*/
+	border-radius:20px; /*arrendondamento das bordas do texto*/
+	color:#2F4F4F;/*cor do texto*/
+	width:100%;/*largura da imagem*/
+	height:200px;/*altura da imagem*/	
+}
+.cor1{
+	background-color:#90C2B3;
+    border-radius:20px; /*arrendondamento das bordas do texto*/
+}
+.cor2{
+	background-color:#AFE0D8; /*#66CDAA;*/
+    border-radius:20px; /*arrendondamento das bordas do texto*/
+}
+.cor3{
+	background-color:#90C2B3;
+    border-radius:20px; /*arrendondamento das bordas do texto*/
+}
+.cor4{
+	background-color:#66CDAA;/*#5F9EA0;*/
+    border-radius:20px; /*arrendondamento das bordas do texto*/
+}
+
+#galeria{
+    display:grid;
+	grid-template-columns: 19.2% 19.2% 19.2% 19.2% 19.2%;
+    grid-gap: 1%;	
+}
+
+.img_galeria{
+	width:100%;
+	height:150px;
+	width:100%;/*largura da imagem*/
+	height:200px;/*altura da imagem*/
+	
+}
+
+#jumbrotron{
+	background-color:#DCDCDC;
+	text-align:center;
+	padding-left:280px;
+	padding-right:280px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.texto{
+	font-family:calibri;
+	font-size:20px;
+	color:#666;
+}
+.botao2{
+	background-color:#2F4F4F;
+	border-radius:5px;
+	font-size:20px;
+	font-family:calibri;
+	color:white;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-right:80px;
+	padding-left:80px;
+	text-decoration:none;
+}
+.botao2:hover{
+	background-color:#90C2B3;
+	border-radius:5px;
+	font-size:20px;
+	font-family:calibri;
+	color:white;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-right:80px;
+	padding-left:80px;
+	text-decoration:none;
+}
+
+#contato{
+	display:grid;
+	grid-template-columns:45% 45%;
+	grid-gap:10%;
+	background-color:#AFE0D8;
+	/*#90C2B3;*/
+	/*#AFE0D8;*/
+}
+#frm{
+	text-align:center;
+	margin-left:70px;
+}
+#frm input{
+	width:96%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-bottom:10px;
+	border:1px solid #666;
+	border-radius:5px;
+	font-size:20px;
+	font-family:calibri;
+	
+}
+#frm textarea{
+	width:96%;
+	height:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-bottom:10px;
+	border:1px solid #666;
+	border-radius:5px;
+	font-size:20px;
+	font-family:calibri;
+}
+#frm input--submit{
+	background-color:#282828;
+	font-size:20px;
+	font-family:calibri;
+}
+
+.caixa_texto{
+	width:100%;
+	padding-top:8px;
+	padding-bottom:10px;
+	/*padding-left:10px;*/
+	margin-bottom:10px;
+	border:1px solid #666;
+	border-radius:7px;
+	font-size:16px;
+	font-family:calibri;
+}
+.botao{
+	background-color:#2F4F4F;
+	width:100%;
+	border:1px solid #666;
+	border-radius:7px;
+	font-size:20px;
+	font-family:calibri;
+	color:white;
+	padding-bottom:20px;
+	padding-top:15px;
+	/*margin-bottom:100px;*/
+}
+.botao:hover{
+	background-color:#90C2B3;
+	width:100%;
+	border:1px solid #666;
+	border-radius:7px;
+	font-size:20px;
+	font-family:calibri;
+	color:white;
+	padding-bottom:20px;
+	padding-top:15px;
+}
+
+
+#mapa{
+	text-align:center;
+	margin-right:70px;
+	border:px solid black;
+}
+.tam_mapa{
+	width:100%;
+	height:350px;
+	/*border:px solid black;*/
+	border-radius:4px;	
+}
+
+#rodape{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+    grid-gap:0.5%;
+	background-color:#2F4F4F;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#rodape a{/*configura os hiperlinks que estão no menu*/
+	color:white;/*altera a cor*/
+	font-size:20px;/*altera o tamanho da font*/
+	text-decoration:none;/*remove o sublinhado dos hiperlinks*/
+	padding-top:10px;/*preencimento do hiperlink*/
+	padding-right:20px;
+	padding-bottom:13px;
+	padding-left:20px;
+} 
+#rodape a:hover{/*quando passar o mouse por cima do hiperlink*/
+    text-decoration:underline;
+}
+.texto_conteudo_AC{
+	font-family:arial;/*alterar o tipo da letra*/
+	text-align:center;/*centralização do texto*/
+	padding-left:20px;/*preenchimento do lado esquerdo*/
+	padding-right:20px;/*preenchimento do lado direito*/
+	border-radius:20px; /*arrendondamento das bordas do texto*/
+	color:#000000;/*
+	color:#2F4F4F;/*cor do texto*/
+	font-size:1.2vw;	
+		
+}
+.texto_conteudo_AC2{
+	font-family:arial;/*alterar o tipo da letra*/
+	/*text-align:center;/*centralização do texto*/
+	padding-left:20px;/*preenchimento do lado esquerdo*/
+	padding-right:20px;/*preenchimento do lado direito*/
+	border-radius:20px; /*arrendondamento das bordas do texto*/
+	color:#000000;/*cor do texto*/
+	font-size:1.2vw;	
+}
+
+.img_conteudoAC{
+	width:80%;
+	height:150px;
+	width:1140px;/*largura da imagem*/
+	height:428px;/*altura da imagem*/
+	border-radius:20px;/*arredondamento das bordas das imagens*/
+}
+#galeria_AA{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+    grid-gap: 1%;	
+}
+.img_galeriaAA{
+	width:100%;/*largura da imagem*/
+	height:300px;/*altura da imagem*/
+}
+.texto_conteudoAA{
+	text-align:left;
+	font-family:arial;/*alterar o tipo da letra*/
+	padding-left:20px;/*preenchimento do lado esquerdo*/
+	padding-right:20px;/*preenchimento do lado direito*/
+	border-radius:20px; /*arrendondamento das bordas do texto*/
+	color:#000000;/*cor do texto*/
+	font-size:1.2vw;	
+}
+.texto_conteudoAA a{
+	font-family:arial;/*alterar o tipo da letra*/
+	color:#000000;/*cor do texto*/
+	text-decoration:none;
+}
+.texto_conteudoAA a:hover{/*quando passar o mouse por cima do hiperlink*/
+    text-decoration:underline;
+}
+
+#fim {
+	display:grid;
+	grid-template-columns: 49.5% 49.5%;
+    grid-gap: 1%;	
+}
+.img_fim{
+	width:100%;/*largura da imagem*/
+	height:400px;/*altura da imagem*/
+}
+
+#conteudo_AD{
+	display:grid;
+	grid-template-columns: 24.8875% 24.8875% 24.8875% 24.8875%;
+    grid-gap: 0.45%;	
+}
+
+.img_conteudoAD {
+	width:100%;/*largura da imagem*/
+	height:200px;/*altura da imagem*/
+	border-radius:20px;/*arredondamento das bordas das imagens*/
+}
+.texto_conteudoAD{
+	font-family:arial;/*alterar o tipo da letra*/
+	text-align:center;/*centralização do texto*/
+	/*padding-left:20px;/*preenchimento do lado esquerdo*/
+	padding-right:20px;/*preenchimento do lado direito*/
+	border-radius:20px; /*arrendondamento das bordas do texto*/
+	color:#2F4F4F;/*cor do texto*/
+	/*width:100%;/*largura da imagem*/
+	/*height:200px;/*altura da imagem*/
+		
+}
+
+.texto_conteudo_AC a{
+	font-family:arial;/*alterar o tipo da letra*/
+	color:#000000;/*cor do testo*/
+	text-decoration:none;
+}
+
+.texto_conteudo_AC a:hover{/*quando passar o mouse por cima do hiperlink*/
+    text-decoration:underline;
+}
+#Guerra{
+	display:grid;
+	grid-template-columns: 80% 19.5%;
+    grid-gap: 0.50%;	
+}
+#galeria_AM{
+	display:grid;
+	grid-template-columns: 24.6% 24.6% 24.6% 24.6%;
+    grid-gap: 0.5%;	
+}
+.img_galeriaAM{
+	width:100%;/*largura da imagem*/
+	height:300px;/*altura da imagem*/
+	border-radius:20px;/*arredondamento das bordas das imagens*/
+}
+
+.img_AG{
+	width:100%;/*largura da imagem*/
+	height:300px;/*altura da imagem*/
+	border-radius:20px;/*arredondamento das bordas das imagens*/
+}
